@@ -109,7 +109,7 @@ Edited and updated by [@dagalloso](https://github.com/dagalloso)._
 - Get ownership of files created by rails generate (on linux they are owned by root when created):
 
     ```bash
-    sudo chown -R $USER: .
+    sudo chown -R $USER:$USER .
     ```
 
 ## Common errors
